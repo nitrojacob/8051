@@ -1,0 +1,4 @@
+	mov A, #0x7
+	mov R0, #0x5
+	add A, R0
+	mov 0x00, A
