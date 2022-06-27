@@ -5,18 +5,19 @@ simulator to get skilled in 8051 assembly and C programming
 
 ## List of examples (in increasing order of difficulty)
 ### Assembly Language
-* asm\_add
-* asm\_jmp
-* asm\_compare
-* asm\_call
+* asm\_add - Arithmetic Instruction
+* asm\_jmp - Branch and Control Instruction
+* asm\_compare - Conditional Branch
+* asm\_call - Function Call
+* asm\_sort - Sorting an Array of 8 bit numbers
 ### C Language
-* c\_delay
-* c\_chaser
-* c\_keyboard
-* c\_lcd
-* c\_timer
-* c\_timer\_isr
-* c\_serial
+* c\_delay - Blink an led at a certain periodicity
+* c\_chaser - 8 LED chaser light
+* c\_keyboard - Interfacing matrix keypad
+* c\_lcd - Interfacing 16x2 LCD Module
+* c\_timer - Using timer hardware
+* c\_timer\_isr - Timer Programming with interrupts
+* c\_serial - Using Serial Port
 
 ## Installing the SDCC toolchain (on Ubuntu/Linux)
 * sudo apt install sdcc
