@@ -18,12 +18,13 @@ simulator to get skilled in 8051 assembly and C programming
 * c\_timer - Using timer hardware
 * c\_timer\_isr - Timer Programming with interrupts
 * c\_serial - Using Serial Port
+* c\_asm\_call - Calling a function implemented in Assembly from a C function (Introduces to ABI/Application Binary Interface and calling conventions)
 
 ## Installing the SDCC toolchain (on Ubuntu/Linux)
 * sudo apt install sdcc
 
 ## Running EdSim51DI (on Ubuntu/Linux)
-* Instrall jre (Java Runtime) from package manager: sudo apt install openjdk-11-jre
+* [Optional] Many linux systems have java installed. If not, Instrall jre (Java Runtime) from package manager: sudo apt install openjdk-11-jre
 * Download EdSim51 from https://www.edsim51.com/8051simulator/edsim51di.zip
 * Extract
 * Open Terminal -> cd to extracted directory
